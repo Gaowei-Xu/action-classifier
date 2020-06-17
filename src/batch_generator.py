@@ -50,7 +50,7 @@ class BatchGenerator(object):
                   fontdict={
                       'size': 16
                   })
-        plt.savefig('../samples_distribution.jpg', dpi=300, bbox_inches='tight')
+        plt.savefig('../samples_distribution.png', dpi=300, bbox_inches='tight')
         print('# of Labels = {}'.format(len(by_value)))
 
     def samples_statistic(self):
