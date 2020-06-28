@@ -8,7 +8,7 @@ class Configuration(object):
         self._trainval_set_dir = '../dataset/'
         self._mapping_path = '../mapping.json'
 
-        self._batch_size = 64
+        self._batch_size = 16
 
         self._time_dimen = 32
         self._frame_height = 720 // 5
